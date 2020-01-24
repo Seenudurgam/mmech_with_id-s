@@ -44,7 +44,7 @@ variable "object_id" {
 variable "storageName" {
   type        = string
   description = "Enter the Storage Account name"
-  default = "mmechugmstrga"
+  default = "demostyayua"
 }
 
 
