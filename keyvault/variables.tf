@@ -30,6 +30,6 @@ variable "object_id" {
 variable "kv" {
   type        = string
   description = "Enter the Key Vault name"
-  default = "mmech-ugmkv"
+  default = "demo-ugmkv"
 }
 
