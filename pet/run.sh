@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# -- hello! -- 
+
 # ---- validate variables ----
 
 if [[ -z "${GREETING}" ]]
