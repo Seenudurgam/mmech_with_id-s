@@ -18,6 +18,14 @@ ls -la
 export TF_VAR_greeting=${GREETING}
 # TODO: add more
 
+# ---- install terrafomr ----
+
+export TF_VERSION=0.12.8
+curl -LO https://releases.hashicorp.com/terraform/${TF_VERSION}/terraform_${TF_VERSION}_linux_amd64.zip
+unzip terraform_${TF_VERSION}_linux_amd64.zip -d .
+rm -f terraform_${TF_VERSION}_linux_amd64.zip
+chmod +x terraform
+
 # ---- init terraform ----
 
 ./terraform --version
