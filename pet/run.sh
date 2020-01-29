@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# -- hello! -- 
+# -- hello --
 
 # ---- validate variables ----
 
